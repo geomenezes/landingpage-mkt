@@ -1,0 +1,85 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #212B40;
+}
+.first {
+    background-color: #212B40;
+    width: 100%;
+    height: 100vh;
+}
+.text {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  color: #BF9E39
+}
+.justify-around {
+    display: flex;
+    justify-content: space-around;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+}
+.height-center {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    padding: 1.5vw;
+}
+.links {
+    background-color: rgb(213, 217, 219);
+    position: fixed;
+    margin-top: 22vw;
+    border-left: 1px solid #102644;
+    border-right: 1px solid #102644;
+    border-bottom: 1px solid #102644;
+    transform: rotate(270deg);
+    padding: 8px 15px 8px 15px;
+    margin-left: -35;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.links a{
+    color: #212B40;
+    text-decoration: none;
+}
+.links a:hover {
+    color: #BF9E39
+}
+.info {
+    margin: 10px;
+    background-color: #040224;
+    width: auto;
+    height: 100vh;
+    border-radius: 20px;
+}
+.news {
+    background-color: rgb(211, 211, 192);
+    z-index: 999;
+    margin: -100px 200px 0px 200px;
+    width: auto;
+    height: 30vh;
+    border-radius: 20px;
+    border: solid #102644;
+    padding: 30px;
+}
+.news a{
+    color:#040224
+}
+.news input[type="button"]{
+    width: auto;
+    height: 20px;
+}
+.footer {
+    margin-top: 300px;
+    background-color: #000;
+    width: auto;
+    height: 50vh;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
