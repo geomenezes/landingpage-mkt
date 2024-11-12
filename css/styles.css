@@ -221,3 +221,29 @@
     margin-top: 15px;
     bottom: 0;
 } 
+.enviar {
+    background-color: #28395f;
+    border: solid #162035;;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 15px;
+    color: #BF9E39;
+}
+.link-text {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    color: #533e36;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.link-text:hover {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    color: #b18d21;
+    font-size: 22px;
+    text-decoration: underline;
+}
