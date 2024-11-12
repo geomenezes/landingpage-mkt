@@ -247,3 +247,19 @@
     font-size: 22px;
     text-decoration: underline;
 }
+.livro {
+    margin: 20px 100px 50px 100px;
+    border: solid #b18d21;
+    padding: 20px;
+    border-radius: 10px;
+}
+.livro img {
+    margin-right: 60px;
+}
+.ler {
+    margin-top: 60px;
+}
+.ler:hover {
+    margin-top: 60px;
+    color: #b18d21;
+}
